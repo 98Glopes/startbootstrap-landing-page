@@ -12,6 +12,8 @@
     display:inline-block;
     text-decoration:none;
     color:black;
-    word-wrap: break-word;
-    max-width: 200px!important;
+    max-width: 200px
+ }
+ .caption {
+ 	max-width: 200px!important;
  }
