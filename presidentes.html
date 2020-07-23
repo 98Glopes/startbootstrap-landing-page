@@ -80,10 +80,6 @@
           <h6 class="card-subtitle mb-2 text-muted">Gestão 2020-21</h6>
 
           <div id="gallery" style="align-items: center;">
-<<<<<<< HEAD
-
-            <!-- Geração de galeria automatica-->
-=======
             
             <a href="img/foto_presida/Beatriz Zangarelli - Rotaract Club de Lençóis Paulista Cidade do Livro.jpeg" data-sub-html="#caption2">
               <img class="img-fluid roundend img-thumbnail img-gallery" src="img/miniatura/Beatriz Zangarelli - Rotaract Club de Lençóis Paulista Cidade do Livro.png" />   
@@ -208,7 +204,6 @@
               <img class="img-fluid roundend img-thumbnail img-gallery" src="img/miniatura/Vitor Antunes - Rotaract Club de Sorocaba-Manchester.png" />   
               <div class="caption"><h5 class="card-title">Vitor Antunes</h5><p class="card-subtitle mb-2 text-muted">Rotaract Club de Sorocaba-Manchester</p></div>  
             </a>
->>>>>>> danillinhogamer
 
           </div>
                 
@@ -280,40 +275,6 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
-      
-      var presidas = [
-            {
-              "name": "Paulo",
-              "thumb": "img/foto_presida/1.jpg",
-              "ori": "img/foto_presida/1000.jpg",
-              "caption": "Rotaract Club de Lençóis Paulista Cidade do Livro"
-            },{
-              "name": "Paulo",
-              "thumb": "img/foto_presida/1.jpg",
-              "ori": "img/foto_presida/1000.jpg",
-              "caption": "Rotaract Club de <br/> Indaiatuba"
-            },{
-              "name": "Paulo",
-              "thumb": "img/foto_presida/1.jpg",
-              "ori": "img/foto_presida/1000.jpg",
-              "caption": "Rotaract Club de Sorocaba-Leste"
-            }
-          ];
-      
-      // Fill #gallery
-      var html = "";
-      presidas.forEach(element => {
-        html += `
-        <a href="${element.ori}" data-sub-html="#caption2">
-              <img class="img-fluid roundend img-thumbnail img-gallery" src="${element.thumb}" />   
-              <div class="caption"><h5 class="card-title">${element.name}</h5><p class="card-subtitle mb-2 text-muted">${element.caption}</p></div>         
-        </a>
-        `
-
-      });
-      $('#gallery').html(html);
-
-
 
       $('#gallery').lightGallery({
         thumbnail:true,

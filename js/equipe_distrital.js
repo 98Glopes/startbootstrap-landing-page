@@ -35,28 +35,28 @@ equipe = [
         "equipe": [
             {
                 "name": "Paulo Victor",
-                "thumb": "img/foto_presida/votura.jpg",
-                "origin": "img/foto_presida/1000.jpg",
+                "thumb": "img/foto_presida/1.jpg",
+                "origin": "img/foto_presida/1.jpg",
                 "caption": "RDA Área 1"
             },{
                 "name": "Elvis Lisboa",
-                "thumb": "img/foto_presida/votura.jpg",
-                "origin": "img/foto_presida/1000.jpg",
+                "thumb": "img/foto_presida/1.jpg",
+                "origin": "img/foto_presida/1.jpg",
                 "caption": "RDA Área 2"
             },{
                 "name": "Matheus Bertipaglia",
                 "thumb": "img/foto_presida/1.jpg",
-                "origin": "img/foto_presida/1000.jpg",
+                "origin": "img/foto_presida/1.jpg",
                 "caption": "RDA Área 3"
             },{
                 "name": "Gabriel Lopes",
                 "thumb": "img/foto_presida/1.jpg",
-                "origin": "img/foto_presida/1000.jpg",
+                "origin": "img/foto_presida/1.jpg",
                 "caption": "RDA Área 4"
             },{
                 "name": "Guilherme Rogério",
                 "thumb": "img/foto_presida/1.jpg",
-                "origin": "img/foto_presida/1000.jpg",
+                "origin": "img/foto_presida/1.jpg",
                 "caption": "RDA Área 5"
             },
 
