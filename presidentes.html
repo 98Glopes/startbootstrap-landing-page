@@ -197,6 +197,55 @@
   <script type="text/javascript">
     $(document).ready(function() {
       
+      var presidas = [
+            {
+              "name": "Paulo",
+              "thumb": "img/foto_presida/1.jpg",
+              "ori": "img/foto_presida/1000.jpg",
+              "caption": "Rotaract Club de Sorocaba-Leste"
+            },{
+              "name": "Paulo",
+              "thumb": "img/foto_presida/1.jpg",
+              "ori": "img/foto_presida/1000.jpg",
+              "caption": "Rotaract Club de Sorocaba-Leste"
+            },{
+              "name": "Paulo",
+              "thumb": "img/foto_presida/1.jpg",
+              "ori": "img/foto_presida/1000.jpg",
+              "caption": "Rotaract Club de Sorocaba-Leste"
+            },
+            {
+              "name": "Paulo",
+              "thumb": "img/foto_presida/1.jpg",
+              "ori": "img/foto_presida/1000.jpg",
+              "caption": "Rotaract Club de Sorocaba-Leste"
+            },{
+              "name": "Paulo",
+              "thumb": "img/foto_presida/1.jpg",
+              "ori": "img/foto_presida/1000.jpg",
+              "caption": "Rotaract Club de Sorocaba-Leste"
+            },{
+              "name": "Paulo",
+              "thumb": "img/foto_presida/1.jpg",
+              "ori": "img/foto_presida/1000.jpg",
+              "caption": "Rotaract Club de Sorocaba-Leste"
+            }
+          ];
+      
+      // Fill #gallery
+      var html = "";
+      presidas.forEach(element => {
+        html += `
+        <a href="${element.ori}" data-sub-html="#caption2">
+              <img class="img-fluid roundend img-thumbnail img-gallery" src="${element.thumb}" />   
+              <div class="caption"><h5 class="card-title">${element.name}</h5><p class="card-subtitle mb-2 text-muted">${element.caption}</p></div>         
+        </a>
+        `
+
+      });
+      $('#gallery').html(html);
+
+
 
       $('#gallery').lightGallery({
         thumbnail:true,
