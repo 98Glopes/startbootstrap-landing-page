@@ -193,6 +193,9 @@
       
       $('#right').click(function(){
         var html = "";
+        if (equipe_index === (equipe.length - 1)){
+          return
+        }
         equipe_index += 1;
 
         equipe[equipe_index].equipe.forEach(element => {
@@ -210,10 +213,33 @@
         $gallery = $('#gallery');
         $gallery.lightGallery({
           thumbnail:true,
-        });  
-
+        });
       });
 
+      $('#left').click(function(){
+        var html = "";
+        if (equipe_index === 0){
+          return
+        }
+        equipe_index -= 1;
+
+        equipe[equipe_index].equipe.forEach(element => {
+          html += `
+          <a href="${element.origin}" data-sub-html="#caption2">
+                <img class="img-fluid roundend img-thumbnail img-gallery" src="${element.thumb}" />   
+                <div class="caption"><h5 class="card-title">${element.name}</h5><p class="card-subtitle mb-2 text-muted">${element.caption}</p></div>         
+          </a>
+          `
+
+        });
+        $gallery.html(html);
+        $('#equipe').text(equipe[equipe_index].title);
+        $gallery.data('lightGallery').destroy(true);
+        $gallery = $('#gallery');
+        $gallery.lightGallery({
+          thumbnail:true,
+        });
+      });
 
 
     });

@@ -34,32 +34,35 @@ equipe = [
         "title": "RDAs",
         "equipe": [
             {
-                "name": "Victor Padoveze",
+                "name": "Paulo Victor",
                 "thumb": "img/foto_presida/votura.jpg",
                 "origin": "img/foto_presida/1000.jpg",
-                "caption": "RDR"
+                "caption": "RDA Área 1"
             },{
-                "name": "Rafael Diniz",
+                "name": "Elvis Lisboa",
                 "thumb": "img/foto_presida/votura.jpg",
                 "origin": "img/foto_presida/1000.jpg",
-                "caption": "Secretário Distrital"
+                "caption": "RDA Área 2"
             },{
-                "name": "Thais",
+                "name": "Matheus Bertipaglia",
                 "thumb": "img/foto_presida/1.jpg",
                 "origin": "img/foto_presida/1000.jpg",
-                "caption": "Tesoureira Distrital"
+                "caption": "RDA Área 3"
             },{
-                "name": "Everton",
+                "name": "Gabriel Lopes",
                 "thumb": "img/foto_presida/1.jpg",
                 "origin": "img/foto_presida/1000.jpg",
-                "caption": "D. Protocolo Distrital"
+                "caption": "RDA Área 4"
             },{
-                "name": "Luiz Fernando Zanuncio",
+                "name": "Guilherme Rogério",
                 "thumb": "img/foto_presida/1.jpg",
                 "origin": "img/foto_presida/1000.jpg",
-                "caption": "Vice RDR"
+                "caption": "RDA Área 5"
             },
 
         ]
+    },{
+        "title": "Equipe Distrital de Imagem Publica",
+        "equipe": []
     },
   ];
