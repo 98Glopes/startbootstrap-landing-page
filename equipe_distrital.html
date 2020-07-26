@@ -163,28 +163,35 @@
 
   <!-- lightgallery plugins -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.2/js/lightgallery-all.js"></script>
-  <script src="js/equipe_distrital.js"></script>
+  <script src="equipe_json.js"></script>
   <script type="text/javascript">
+
+    function gen_html(item){
+      var html = `
+        <a href="img/equipe_distrital/${item.foto}" data-sub-html=".caption">
+              <img class="img-fluid roundend img-thumbnail img-gallery" src="img/miniatura equipe/${item.thumb}" />   
+              <div class="caption"><h5 class="card-title">${item.nome}</h5><p class="card-subtitle mb-2 text-muted">${item.cargo}</p></div>         
+        </a>
+        `
+        return html
+    }
+
     $(document).ready(function() {
       
       // Fill #gallery
       var html = "";
       equipe_index = 0;
-      equipe[equipe_index].equipe.forEach(element => {
-        html += `
-        <a href="${element.origin}" data-sub-html="#caption2">
-              <img class="img-fluid roundend img-thumbnail img-gallery" src="${element.thumb}" />   
-              <div class="caption"><h5 class="card-title">${element.name}</h5><p class="card-subtitle mb-2 text-muted">${element.caption}</p></div>         
-        </a>
-        `
+      equipe[comissoes[equipe_index]].forEach(element => {
+        html += gen_html(element)
 
       });
       $('#gallery').html(html);
-      $('#equipe').text(equipe[equipe_index].title);
+      $('#equipe').text(comissoes[equipe_index]);
       
       $gallery = $('#gallery');
       $gallery.lightGallery({
         thumbnail:true,
+        subHtmlSelectorRelative: true,
       });
 
       
@@ -195,21 +202,18 @@
         }
         equipe_index += 1;
 
-        equipe[equipe_index].equipe.forEach(element => {
-          html += `
-          <a href="${element.origin}" data-sub-html="#caption2">
-                <img class="img-fluid roundend img-thumbnail img-gallery" src="${element.thumb}" />   
-                <div class="caption"><h5 class="card-title">${element.name}</h5><p class="card-subtitle mb-2 text-muted">${element.caption}</p></div>         
-          </a>
-          `
+        equipe[comissoes[equipe_index]].forEach(element => {
+          html += gen_html(element);
+          
 
         });
         $gallery.html(html);
-        $('#equipe').text(equipe[equipe_index].title);
+        $('#equipe').text(comissoes[equipe_index]);
         $gallery.data('lightGallery').destroy(true);
         $gallery = $('#gallery');
         $gallery.lightGallery({
           thumbnail:true,
+          subHtmlSelectorRelative: true
         });
       });
 
@@ -220,21 +224,17 @@
         }
         equipe_index -= 1;
 
-        equipe[equipe_index].equipe.forEach(element => {
-          html += `
-          <a href="${element.origin}" data-sub-html="#caption2">
-                <img class="img-fluid roundend img-thumbnail img-gallery" src="${element.thumb}" />   
-                <div class="caption"><h5 class="card-title">${element.name}</h5><p class="card-subtitle mb-2 text-muted">${element.caption}</p></div>         
-          </a>
-          `
+        equipe[comissoes[equipe_index]].forEach(element => {
+          html += gen_html(element);
 
         });
         $gallery.html(html);
-        $('#equipe').text(equipe[equipe_index].title);
+        $('#equipe').text(comissoes[equipe_index]);
         $gallery.data('lightGallery').destroy(true);
         $gallery = $('#gallery');
         $gallery.lightGallery({
           thumbnail:true,
+          subHtmlSelectorRelative: true
         });
       });
 
