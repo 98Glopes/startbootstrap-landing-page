@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>Galeria de RDR - Rotaract Distrito 4621</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -47,13 +47,16 @@
           <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="galeria_rdr.html">Galeria de RDRs</a>
+          <a class="nav-link" href="#rdr">Galeria de RDRs</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="equipe_distrital.html">Equipe Distrital</a>
+          <a class="nav-link" href="#presidentes">Galeria de Presidentes</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="index.html#social">Redes Sociais</a>
+          <a class="nav-link" href="#equipe">Equipe Distrital</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#social">Redes Sociais</a>
         </li>                      
       </ul>
     </div>
@@ -63,21 +66,29 @@
   <header class="masthead text-center" style="max-height: 250px!important;">
     
     <div class="container">
-      <h1 class="title" style="color: #ffffff!important;"> Galeria de Presidentes</h1>
+      <h1 class="title" style="color: #ffffff!important;"> Mapa do Distrito</h1>
     </div>
   </header>
-
-  <!-- Image Showcases -->
   <section class="showcase">
     <div class="container-fluid p-0">
       <div class="d-flex justify-content-center">
-      <div class="card text-center" style="width: 80%;">
+      <div class="card text-center" style="width: 65%;">
         <div class="card-body">
-          <h5 class="card-title">Galeria de Presidentes</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Gestão 2020-21</h6>
+          <hr class="mt-2 mb-3"/>
+          <div class="card-text text-justify">
+            <p>
+              Atualmente, o Distrito 4621 conta com 27 Rotaract Clubs ativos e fundados perante o Rotary Internacional. Cada clube possui pontos de melhoria, que variam de acordo com as realidades de suas comunidades, a quantidade de associados em seu quadro associativo, a forma de desenvolver projetos e a relação com o Rotary Club de sua cidade.
+            </p>
 
+            <p>
+              Os Rotaract Clubs ativos do Distrito 4621 são:
+            </p>
+          </div>
           <div id="gallery" style="align-items: center;">
-    
+            
+            <a href="img/Mapa.jpg" data-sub-html="#caption2">
+              <img class="img-fluid roundend img-thumbnail" width="300"  src="img/Mapa.jpg" />
+            </a>     
 
           </div>
                 
@@ -146,27 +157,13 @@
 
   <!-- lightgallery plugins -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.2/js/lightgallery-all.js"></script>
-  <script src="presidentes_json.js"></script>
+
   <script type="text/javascript">
     $(document).ready(function() {
 
-      // Fill #gallery
-      var html = "";
-      presidentes.forEach(element => {
-        html += `
-        <a href="img/foto_presida/${element.foto}" data-sub-html="#caption2">
-              <img class="img-fluid roundend img-thumbnail img-gallery" src="img/miniatura/${element.foto}" />   
-              <div class="caption"><h5 class="card-title">${element.nome}</h5><p class="card-subtitle mb-2 text-muted">${element.clube}</p></div>         
-        </a>
-        `
-
-      });
-      $('#gallery').html(html);
-      
-      $gallery = $('#gallery');
-      $gallery.lightGallery({
+      $('#gallery').lightGallery({
         thumbnail:true,
-      });
+      }); 
 
 
 
