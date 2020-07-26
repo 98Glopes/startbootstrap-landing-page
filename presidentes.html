@@ -154,7 +154,7 @@
       var html = "";
       presidentes.forEach(element => {
         html += `
-        <a href="img/foto_presida/${element.foto}" data-sub-html="#caption2">
+        <a href="img/foto_presida/${element.foto}" data-sub-html=".caption">
               <img class="img-fluid roundend img-thumbnail img-gallery" src="img/miniatura/${element.foto}" />   
               <div class="caption"><h5 class="card-title">${element.nome}</h5><p class="card-subtitle mb-2 text-muted">${element.clube}</p></div>         
         </a>
@@ -166,6 +166,7 @@
       $gallery = $('#gallery');
       $gallery.lightGallery({
         thumbnail:true,
+        subHtmlSelectorRelative: true
       });
 
 
