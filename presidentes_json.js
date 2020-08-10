@@ -157,9 +157,22 @@ presidentes = [
         "clube":"Rotaract Club de Botucatu Bons Ares"
     },
     {
-        "foto":"Vitor Antunes - Rotaract Club de Sorocaba-Manchester.jpg",
+        "foto": "Vitor Antunes - Rotaract Club de Sorocaba-Manchester.jpg",
         "_":"Sorocaba-Manchester",
         "nome":"Vitor Antunes",
         "clube":"Rotaract Club de Sorocaba-Manchester"
     }
 ]
+
+
+function GetSortOrder(prop) {    
+    return function(a, b) {    
+        if (a[prop] > b[prop]) {    
+            return 1;    
+        } else if (a[prop] < b[prop]) {    
+            return -1;    
+        }    
+        return 0;    
+    }    
+}    
+    
