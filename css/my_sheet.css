@@ -17,3 +17,50 @@
  .caption {
  	max-width: 200px!important;
  }
+
+
+section.whoare {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/soft_back.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-height: 250px!important;  
+}
+  
+  section.whoare .overlay {
+    position: absolute;
+    background-color: #212529;
+    max-height: 250px!important;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  
+  section.whoare h1 {
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    section.whoare {
+      padding-top: 3rem;
+      padding-bottom: 5rem;
+    }
+    section.whoare h1 {
+      font-size: 3rem;
+    }
+  }
+
+  section.whoare div{
+      text-align: center;
+  }
+  section.whoare h1{
+      color: rgb(41, 41, 41);
+  }
+
+  section.whoare p{
+      color: rgb(75, 75, 75);
+  }
