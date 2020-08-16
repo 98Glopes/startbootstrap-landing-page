@@ -1,4 +1,4 @@
-comissoes = ['Conselho Diretor', 'RDAs', 'Eventos', 'Finanças', 'Fundação Rotária', 'Imagem Pública', 'Juridico', 'Projetos e Treinamentos', 'Serviços Internacionais']
+comissoes = ['Conselho Diretor', 'RDAs', 'Eventos', 'Finanças', 'Fundação Rotária', 'Governadoria', 'Imagem Pública', 'Juridico', 'Projetos e Treinamentos', 'Serviços Internacionais']
 equipe = {
     "Servi\u00e7os Internacionais":[
         {
@@ -136,6 +136,12 @@ equipe = {
             "thumb":"Victor-Enrik-Padoveze---Representante-Distrital.png"
         },
         {
+            "nome":"Luis Zanuncio",
+            "cargo":"Vice Representante Distrital",
+            "foto":"Luis Fernando Zanuncio - Vice Representante Distrital.png",
+            "thumb":"Luis-Fernando-Zanuncio---Vice-Representante-Distrital.png"
+        },
+        {
             "nome":"Rafael Diniz",
             "cargo":"Secret\u00e1rio Distrital",
             "foto":"Rafael do Carmo Diniz - Secret\u00e1rio Distrital.png",
@@ -153,18 +159,6 @@ equipe = {
             "cargo":"D. de Protocolo Distrital",
             "foto":"Everton Lima Costa - Diretor de Protocolo Distrital.png",
             "thumb":"Everton-Lima-Costa---Diretor-de-Protocolo-Distrital.png"
-        },
-        {
-            "nome":"Luis Zanuncio",
-            "cargo":"Vice Representante Distrital",
-            "foto":"Luis Fernando Zanuncio - Vice Representante Distrital.png",
-            "thumb":"Luis-Fernando-Zanuncio---Vice-Representante-Distrital.png"
-        },
-        {
-            "nome":"Murilo Abreu",
-            "cargo":"Chairman de Rotaract",
-            "foto":"Murilo Abreu da Silva - CHAIRMAN DE ROTARACT.png",
-            "thumb":"Murilo Abreu da Silva - CHAIRMAN DE ROTARACT.png"
         },
         
         
@@ -232,5 +226,27 @@ equipe = {
             "foto":"Roberto Forti de Souza - Diretor Distrital de Finan\u00e7as.png",
             "thumb":"Roberto-Forti-de-Souza---Diretor-Distrital-de-Finan\u00e7as.png"
         }
-    ]
+    ],
+    "Governadoria":[
+        {   
+            "nome": "Governador",
+            "cargo": "Governador",
+            "foto": "",
+            "thumn": ""
+
+        },
+        {   
+            "nome": "Governador1",
+            "cargo": "Governador1",
+            "foto": "",
+            "thumn": ""
+
+        },
+        {
+            "nome":"Murilo Abreu",
+            "cargo":"Chairman de Rotaract",
+            "foto":"Murilo Abreu da Silva - CHAIRMAN DE ROTARACT.png",
+            "thumb":"Murilo Abreu da Silva - CHAIRMAN DE ROTARACT.png"
+        },
+    ],
 }
