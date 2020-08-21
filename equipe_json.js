@@ -159,10 +159,7 @@ equipe = {
             "cargo":"D. de Protocolo Distrital",
             "foto":"Everton Lima Costa - Diretor de Protocolo Distrital.png",
             "thumb":"Everton-Lima-Costa---Diretor-de-Protocolo-Distrital.png"
-        },
-        
-        
-        
+        },   
     ],
     "Projetos e Treinamentos":[
         {
@@ -229,22 +226,22 @@ equipe = {
     ],
     "Governadoria":[
         {   
-            "nome": "Governador",
-            "cargo": "Governador",
-            "foto": "",
-            "thumn": ""
+            "nome": "Sergio Lelli",
+            "cargo": "Governador <br /> Distrital",
+            "foto": "lelli.jpg",
+            "thumb": "lelli.jpg"
 
         },
         {   
-            "nome": "Governador1",
-            "cargo": "Governador1",
-            "foto": "",
-            "thumn": ""
+            "nome": "Marcos Marcelo",
+            "cargo": "Pres. da Comissão de Serviços à Juventude",
+            "foto": "mm_matos.jpg",
+            "thumb": "mm_matos.jpg"
 
         },
         {
             "nome":"Murilo Abreu",
-            "cargo":"Chairman de Rotaract",
+            "cargo":"Chairman de <br /> Rotaract",
             "foto":"Murilo Abreu da Silva - CHAIRMAN DE ROTARACT.png",
             "thumb":"Murilo Abreu da Silva - CHAIRMAN DE ROTARACT.png"
         },
