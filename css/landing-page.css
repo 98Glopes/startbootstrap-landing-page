@@ -94,12 +94,12 @@ header.masthead h1 {
 }
 
 .testimonials .testimonial-item {
-  max-width: 10rem;
+  max-width: 2rem;
 }
 
 .testimonials .testimonial-item img {
-  max-width: 2rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
+  max-width: 0.5rem;
+  box-shadow: 0px 2px 2px 0px #adb5bd;
 }
 
 .call-to-action {
@@ -132,4 +132,8 @@ html {
 
 .img-gallery {
   width: 200px!important;
+}
+
+#social {
+  max-height: 200px!important; 
 }

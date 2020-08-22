@@ -64,3 +64,25 @@ section.whoare {
   section.whoare p{
       color: rgb(75, 75, 75);
   }
+
+
+  section.ri {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    background: url("https://www.rotary.org/sites/default/files/styles/w_2800/public/20200120_US_001_Holger_hero.jpg?itok=9qQqJvas") no-repeat center center;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* max-height: 250px!important;   */
+}
+  
+  section.ri .overlay {
+    position: absolute;
+    background-color: #212529;
+    /* max-height: 250px!important; */
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
