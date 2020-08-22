@@ -49,13 +49,13 @@ equipe = {
         },
     
         {
-            "nome":"J\u00e9ssica Tavares",
+            "nome":"J\u00e9ssica Machado",
             "cargo":"Assessora ",
             "foto":"J\u00e9ssica Tavares Machado - ASSESSORA DISTRITAL DE FUNDA\u00c7\u00c3O ROT\u00c1RIA.png",
             "thumb":"J\u00e9ssica-Tavares-Machado---ASSESSORA-DISTRITAL-DE-FUNDA\u00c7\u00c3O-ROT\u00c1RIA.png"
         },
         {
-            "nome":"Patrick Augusto",
+            "nome":"Patrick Fernandes",
             "cargo":"Assessor ",
             "foto":"Patrick Augusto Fernandes - ASSESSOR DISTRITAL DE FUNDA\u00c7\u00c3O ROT\u00c1RIA.png",
             "thumb":"Patrick-Augusto-Fernandes---ASSESSOR-DISTRITAL-DE-FUNDA\u00c7\u00c3O-ROT\u00c1RIA.png"
