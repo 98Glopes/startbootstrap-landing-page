@@ -21,8 +21,8 @@
 
 section.whoare {
     position: relative;
-    background-color: #343a40;
-    background: url("../img/soft_back.jpg") no-repeat center center;
+    background-color: rgba(255, 255, 255, 1);
+    background: url("../img/soft_back_40.png") no-repeat center center;
     background-size: cover;
     padding-top: 1rem;
     padding-bottom: 1rem;
