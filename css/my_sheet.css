@@ -12,7 +12,7 @@
     display:inline-block;
     text-decoration:none;
     color:black;
-    max-width: 200px
+    /* max-width: 200px */
  }
  .caption {
  	max-width: 200px!important;

@@ -24,7 +24,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.2/css/lightgallery.css" type="text/css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.2/css/lightgallery.min.css" />
-  <script src="js/Justified-Gallery/dist/js/jquery.justifiedGallery.js"></script>
+  <!-- script src="js/Justified-Gallery/dist/js/jquery.justifiedGallery.js"></script -->
 
 
 </head>
@@ -160,6 +160,22 @@
 <!-- wp:paragraph -->
 <p>No ano rotário 2019-20 os Distritos 4310 e 4620 voltaram a se redistritar e, após ser 63, 72, 28, 119, 461, 462, 4620 e 4310, surge o atual Distrito 4621.</p>
 <!-- /wp:paragraph -->
+<p>
+  Atualmente, o Distrito 4621 conta com 27 Rotaract Clubs ativos e fundados perante o Rotary Internacional. Cada clube possui pontos de melhoria, que variam de acordo com as realidades de suas comunidades, a quantidade de associados em seu quadro associativo, a forma de desenvolver projetos e a relação com o Rotary Club de sua cidade.
+</p>
+
+<p>
+  Os Rotaract Clubs ativos do Distrito 4621 são:
+</p>
+
+<div id="gallery" style="align-items: center;">
+            
+  <a href="img/Mapa.png" data-sub-html="#caption2">
+    <img class="img-fluid roundend img-thumbnail" src="img/Mapa.png" />
+  </a>     
+
+</div>
+
           </div>
         </div>
       </div>
@@ -227,7 +243,12 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
-      
+
+      $('#gallery').lightGallery({
+        thumbnail:true,
+      }); 
+
+
 
     });
 </script>
